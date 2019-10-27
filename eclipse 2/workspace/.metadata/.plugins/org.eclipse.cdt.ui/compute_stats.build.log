@@ -1,0 +1,69 @@
+23:31:24 **** Build of configuration Debug for project compute_stats ****
+make all 
+Building file: ../compute_stats.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"compute_stats.d" -MT"compute_stats.d" -o "compute_stats.o" "../compute_stats.c"
+../compute_stats.c:14:18: error: non-ASCII characters are not allowed outside of literals and identifiers
+        numbers = fopen(“numbers.txt”, “r”);
+                        ^
+../compute_stats.c:14:32: error: non-ASCII characters are not allowed outside of literals and identifiers
+        numbers = fopen(“numbers.txt”, “r”);
+                                    ^
+../compute_stats.c:14:28: error: member reference type 'FILE *' (aka 'struct __sFILE *') is a pointer; maybe you meant to use '->'?
+        numbers = fopen(“numbers.txt”, “r”);
+                         ~~~~~~~^
+                                ->
+../compute_stats.c:14:29: error: no member named 'txt' in 'struct __sFILE'
+        numbers = fopen(“numbers.txt”, “r”);
+                         ~~~~~~~ ^
+../compute_stats.c:14:37: error: non-ASCII characters are not allowed outside of literals and identifiers
+        numbers = fopen(“numbers.txt”, “r”);
+                                       ^
+../compute_stats.c:14:41: error: non-ASCII characters are not allowed outside of literals and identifiers
+        numbers = fopen(“numbers.txt”, “r”);
+                                         ^
+../compute_stats.c:14:40: error: use of undeclared identifier 'r'
+        numbers = fopen(“numbers.txt”, “r”);
+                                        ^
+../compute_stats.c:16:6: error: use of undeclared identifier 'i'
+        for(i=0; i<200; i++){
+            ^
+../compute_stats.c:16:11: error: use of undeclared identifier 'i'
+        for(i=0; i<200; i++){
+                 ^
+../compute_stats.c:16:18: error: use of undeclared identifier 'i'
+        for(i=0; i<200; i++){
+                        ^
+../compute_stats.c:17:9: error: use of undeclared identifier 'file'
+        fscanf(file, “%d”, &i);
+               ^
+../compute_stats.c:17:15: error: non-ASCII characters are not allowed outside of literals and identifiers
+        fscanf(file, “%d”, &i);
+                     ^
+../compute_stats.c:17:18: error: expected expression
+        fscanf(file, “%d”, &i);
+                      ^
+../compute_stats.c:17:20: error: non-ASCII characters are not allowed outside of literals and identifiers
+        fscanf(file, “%d”, &i);
+                        ^
+../compute_stats.c:17:19: error: use of undeclared identifier 'd'
+        fscanf(file, “%d”, &i);
+                       ^
+../compute_stats.c:17:26: error: use of undeclared identifier 'i'
+        fscanf(file, “%d”, &i);
+                            ^
+../compute_stats.c:23:18: error: non-ASCII characters are not allowed outside of literals and identifiers
+        numbers = fopen(“statistics.txt”, “w”);
+                        ^
+../compute_stats.c:23:21: error: use of undeclared identifier 'statistics'
+        numbers = fopen(“statistics.txt”, “w”);
+                         ^
+../compute_stats.c:23:35: error: non-ASCII characters are not allowed outside of literals and identifiers
+        numbers = fopen(“statistics.txt”, “w”);
+                                       ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+make: *** [compute_stats.o] Error 1
+
+23:31:25 Build Finished (took 344ms)
+

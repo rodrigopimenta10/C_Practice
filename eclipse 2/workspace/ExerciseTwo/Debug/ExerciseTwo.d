@@ -1,0 +1,1 @@
+ExerciseTwo.d: ../ExerciseTwo.c

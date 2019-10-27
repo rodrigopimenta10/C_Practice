@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;array_reverse.c&apos; to &apos;array_reverse&apos;" description="Rename resource &apos;array_reverse.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/array_reverse.c" name="array_reverse" stamp="1429143838868" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;draft/draft2.c&apos;" deleteContents="false" description="Delete resource &apos;draft/draft2.c&apos;" element1="/draft/draft2.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1429147004331"/>
+</session>

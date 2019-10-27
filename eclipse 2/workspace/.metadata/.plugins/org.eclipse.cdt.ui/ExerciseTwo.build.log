@@ -1,0 +1,15 @@
+15:11:07 **** Incremental Build of configuration Debug for project ExerciseTwo ****
+make all 
+Building file: ../ExerciseTwo.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ExerciseTwo.d" -MT"ExerciseTwo.d" -o "ExerciseTwo.o" "../ExerciseTwo.c"
+Finished building: ../ExerciseTwo.c
+ 
+Building target: ExerciseTwo
+Invoking: Cross GCC Linker
+gcc  -o "ExerciseTwo"  ./ExerciseTwo.o   
+Finished building target: ExerciseTwo
+ 
+
+15:11:08 Build Finished (took 911ms)
+

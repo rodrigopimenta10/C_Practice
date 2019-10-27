@@ -1,0 +1,1 @@
+draft.d: ../draft.c

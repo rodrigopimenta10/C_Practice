@@ -1,0 +1,19 @@
+16:47:42 **** Build of configuration Debug for project textmanipulation ****
+make all 
+Building file: ../textmanipulation.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"textmanipulation.d" -MT"textmanipulation.d" -o "textmanipulation.o" "../textmanipulation.c"
+Finished building: ../textmanipulation.c
+ 
+Building target: textmanipulation
+Invoking: MacOS X C Linker
+gcc  -o "textmanipulation"  ./textmanipulation.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [textmanipulation] Error 1
+
+16:47:46 Build Finished (took 3s.740ms)
+

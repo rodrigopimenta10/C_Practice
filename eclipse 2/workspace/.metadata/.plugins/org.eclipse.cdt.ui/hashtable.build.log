@@ -1,0 +1,31 @@
+02:58:19 **** Build of configuration Debug for project hashtable ****
+make all 
+Building file: ../hashtable.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hashtable.d" -MT"hashtable.d" -o "hashtable.o" "../hashtable.c"
+../hashtable.c:78:4: warning: implicit declaration of function 'strcy' is invalid in C99 [-Wimplicit-function-declaration]
+                        strcy(table->buckets[i].data.key, key);
+                        ^
+../hashtable.c:183:42: error: function definition is not allowed here
+int delete(Table *table, const char *key){
+                                         ^
+../hashtable.c:234:28: error: function definition is not allowed here
+int key_count(Table *table){
+                           ^
+../hashtable.c:249:31: error: function definition is not allowed here
+int bucket_count(Table *table){
+                              ^
+../hashtable.c:261:41: error: function definition is not allowed here
+unsigned long hash_code(const char *str){
+                                        ^
+../hashtable.c:276:2: error: expected '}'
+}
+ ^
+../hashtable.c:124:53: note: to match this '{'
+int search(Table *table, const char *key, char *val){
+                                                    ^
+1 warning and 5 errors generated.
+make: *** [hashtable.o] Error 1
+
+02:58:20 Build Finished (took 526ms)
+
